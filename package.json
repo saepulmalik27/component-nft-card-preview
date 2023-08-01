@@ -1,0 +1,16 @@
+{
+  "name": "nft-preview-component",
+  "version": "1.0.0",
+  "description": "this project is challange from frontend mentor",
+  "main": "index.js",
+  "author": "malik",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev" : "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "build" : "npx tailwindcss -i ./src/input.css -o ./dist/output.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
